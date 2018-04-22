@@ -6,9 +6,15 @@ public class _C {
     System.out.print(a_b);
 } }
 
-/*
-* Compiler error on line 4;
-* The local variable "a_b" has not been properly initialized, so it cannot be used for assignment or other operations.
-* 
-* At first glance, it look tricky because the declaration of the "static int $" class member, but the "$" symbol is a valid one, so there's no error on that.
+/**
+* 1 - Compiler error on line 1. (False)
+* 	There's no problem on line one, because valid class name (identifiers) may begin with letter, underscore, or dollar sign. It's is worth also mention that after a those valid begin, numbers can be part of identifiers.
+* 2 - Compiler error on line 2. (False)
+* 	There's no problem on line two, because valid name variables (identifiers) may begin with letter, underscore, or dollar sign. It's is worth also mention that after a those valid begin, numbers can be part of identifiers.
+* 3 - Compiler error on line 4. (False)
+* 4 - Compiler error on line 5. (False)
+* 5 - Compiler error on line 6. (True)
+* 	The local variable cannot be used (be refered) before it is initialized in somehow, it is because local variables doesn't have default values.
+* 6 - 0null (False)
+* 7 - nullnull (False)
 */
