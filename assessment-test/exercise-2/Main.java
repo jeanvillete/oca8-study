@@ -23,4 +23,10 @@ public class Main {
 * The class StringBuilder is upon "java.lang" package, so it is part of the java language (as the String class and plenty of others) so there's no need to declare it as import statements.
 * 
 * The line 10, on the operation "sb1.toString()" generates a String object that in turns has its own object reference, and even the resulting String is equals the String variable reference s1 (got from the string pool), the operator == compares references, which in this case are different.
+*
+* It is worth mention that if a string is immediately cocatenated, it would become only one on compiling time, so it would be also put on Pool of String, e.g;
+* ...
+* String s3 = "Ja" + "va";
+* System.out.println(s1 == s3); // true
+* ...
 */
