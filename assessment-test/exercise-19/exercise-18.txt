@@ -1,0 +1,8 @@
+Bytecode is in a file with wich extension?
+
+1 - .bytecode (False)
+2 - .bytes (False)
+3 - .class (True)
+4 - .exe (False)
+5 - .javac (False)
+6 - .java (False)
