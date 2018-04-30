@@ -1,0 +1,12 @@
+Which of the following are checked exceptions? (Choose all that apply)
+
+1 - Exception (True)
+2 - IllegalArgumentException (False)
+	It is a runtime exception, a not checked one
+3 - IOException (True)
+4 - NullPointerException
+	It is a runtime exception, a not checked one
+5 - NumberFormatException
+	It is a runtime exception, a not checked one
+6 - StackOverflowError
+	It is an error (runtime error), not an Exception
