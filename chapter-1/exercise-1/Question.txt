@@ -1,0 +1,15 @@
+Which of the following are valid Java identifiers? (Choose all that apply)
+
+/*
+* Identifiers follow the same rule for variables/fields, method and class/interface names;
+* - can be composed by letters, numbers, $ sign and _ (underscore) sign.
+* - cannot start with numbers
+* - cannot have the same name as any reserved keyword
+*/
+
+1. A$B (True)
+2. _helloWorld (True)
+3. true (False) // this is a reserved keyword and cannot be used as identifier
+4. java.lang (False) // both 'java' and 'lang' are valid, but the period (.) cannot be used as legal identifiers
+5. Public (True) // as Java is case sensitive, Public is a valid identifier, unlike public (lowercase) which is reserverd keyword
+6. 1980_s (False) // identifiers can consist of numbers but cannot start with numbers
