@@ -1,0 +1,91 @@
+[LEGAL IDENTIFIERS]
+#Legal identifiers follow the same rules for anything we can name; variables and/or fields, classes and methods.
+- Begin with $ (dolar sign), _ (underscores) and alpha (Unicode) characters
+- It might have numeric characters, except at beginning (legal identifiers cannot start with numbers)
+- Obviously, no reserved keywork can be used for identifiers.
+
+[RESERVED KEYWORDS]
+  abstract
+  assert
+  boolean
+  break
+  byte
+  case
+  catch
+  char
+  class
+  const (not used on the language but it is reserved for any future intend)
+  continue
+  default
+  do
+  double
+  else
+  enum
+  extends
+  false
+  final
+  finally
+  float
+  for
+  goto (not used on the language but it is reserved for any future intend)
+  if
+  implements
+  import
+  instanceof
+  int
+  interface
+  long
+  native
+  new
+  null
+  package
+  private
+  protected
+  public
+  return
+  short
+  static
+  strictfp
+  super
+  switch
+  syncrhonized
+  this
+  throw
+  throws
+  transitive
+  true
+  try
+  void
+  volatile
+  while
+
+[PRIMITIVE TYPES]
+  boolean -> true/false
+  byte -> 8-bit integral (-128 to 127)
+  short -> 16-bit integral (≃ 32+ thousand)
+  int -> 32-bit integral (≃ 2+ billions)
+  long -> 64-bit integral (≃ 9+ quitillion)
+  float -> 32-bit floating point (decimal)
+  double -> 64-bit floating point (decimal)
+  char -> 16-bit Unicode value (64+ thousand possible representations)
+
+[DEFAULT INITIALIZATION]
+#For instance and class/static fields (non local variables)
+  boolean -> false
+  byte,short,int,long -> 0 (in the type's bit-length)
+  float,double -> 0.0 (in the type's bit-length)
+  char -> '\u0000' (NUL)
+  reference types -> null
+
+[VARIABLE SCOPE]
+* Local variables; in scope from declaration to end of block (method, while, if, for, etc.)
+* Instance variables; in scope from declaration until object garbage collected
+* Class variables - in scope from declaration until program ends
+
+[JAVA BENEFITS]
+- Object Oriented; Java is an object-oriented language, which means all code is defined in classes and most of those classes can be instantiated into objects.
+- Encapsulation; Java supports access modifiers to protect data from unintended access and modification.
+- Platform Independent; Java is and interpreted language because it gets compiled to bytecode. Once there's a JVM for almost any platform, so from any of those platform the same bytecode can be interpreted and executed, without carying about to compile the same source code to every platform. It is called "write once, run anywhere".
+- Robust; One of the major advantages of Java over other languages, is that it prevents memory leaks, since Java manages memory on its own and does garbage collection automatically in a consistent and good way.
+- Simple; Java was intended to be simple, it has eliminated pointers, and got rid of operator overloading.
+- Secure; Java code runs inside the JVM, which creates a sandbox that makes it hard for Java code do evil things to the hosting computer.
