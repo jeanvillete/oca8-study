@@ -69,6 +69,25 @@
   double -> 64-bit floating point (decimal)
   char -> 16-bit Unicode value (64+ thousand possible representations)
 
+[NUMERIC LITERALS]
+- On integral literal declarations, the JDK checks whether the provided literal fits on the variable type, if it doesn't, a compiler error is thrown;
+	byte _var1 = -128, _var2 = 127; // any number out of this range, a compiler error is raised, such as; possible lossy conversion from int to byte
+	short _var1 = -32768, _var2 = 32767; // any number out of this range, a compiler error is raised, such as; possible lossy conversion from int to short
+	int _var1 = -2147483648, _var2 = 2147483647; // any number out of this range, a compiler error is raised, such as; integer number too large
+
+- On declaring numeric integral literals, it is by default;
+	int datatype value
+	base 10
+
+- In order to declare numeric integral literal value greater than int, i.e; long
+	for long values, the number has to be suffixed with the letter L, e.g; long l = 2147483648L
+
+- It is possible to declare numeric literals on specific base;
+	base two/binary, the number has to be preceeded by 0B..., e.g; byte a = -0B10000000, b = 0B1111111;
+	base eight/octet, the number has to be preceeded by 0..., e.g; byte a = -0200, b = 0177;
+	base ten/decimal, that's the default, e.g; byte a = -128, b = 127;
+	base sixteen/hexadecimal, the number has to be preceeded by 0X..., e.g; byte a = -0X80, b = 0X7F;
+
 [DEFAULT INITIALIZATION]
 #For instance and class/static fields (non local variables)
   boolean -> false
