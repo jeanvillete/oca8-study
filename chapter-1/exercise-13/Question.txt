@@ -1,0 +1,9 @@
+Which of the following are true? (Choose all that apply)
+
+1/A - An instance variable of type boolean defaults to false (True)
+2/B - An instance variable of type boolean defaults to true (False)
+3/C - An instance variable of type boolean defaults to null (False)
+4/D - An instance variable of type int defaults to 0 (True)
+5/E - An instance variable of type int defaults to 0.0 (False)
+6/F - An instance variable of type int defaults to null (False)
+7/G - None of the above (False)

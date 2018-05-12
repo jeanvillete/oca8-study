@@ -1,0 +1,18 @@
+Which represent the order in which the following statements can be assembled into a program that will compile successfully? (Choose all that apply)
+
+Notes: The elements order are (comments can come in any place);
+    package
+    import
+    classes
+
+A: class Rabit{}
+B: import java.util.*;
+C: package animals;
+
+1/A - A,B,C (False)
+2/B - B,C,A (False)
+3/C - C,B,A (True)
+4/D - B,A (True)
+5/E - C,A (True)
+6/F - A,C (False)
+7/G - A,B (False)

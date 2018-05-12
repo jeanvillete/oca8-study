@@ -1,0 +1,10 @@
+Which of the following are true? (Choose all that apply)
+
+1/A - A local variable of type boolean defaults to null (False)
+2/B - A local variable of type float defaults to 0 (False)
+3/C - A local variable of type Object defaults to null (False)
+4/D - A local variable of type boolean defaults to false (False)
+5/E - A local variable of type boolean defaults to true (False)
+6/F - A local variable of type float defaults to 0.0 (False)
+7/G - None of the above (True)
+    Local variables are never default initialized. They have always to be explicitly initialized before usage.

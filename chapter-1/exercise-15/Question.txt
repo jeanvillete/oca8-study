@@ -1,0 +1,10 @@
+Which of the following lines of code compile? (Choose all that apply)
+
+Note: Underscores can on be provided on literal declarations, but cannot be provided either at start nor at the end, and cannot be placed neither left before nor right after dot/period symbol.
+
+1/A - int i = 1_234; (True)
+2/B - double d1 = 1_234_.0; (False)
+3/C - double d2 = 1_234._0; (False)
+4/D - double d3 = 1_234.0_; (False)
+5/E - double d4 = 1_234.0; (True)
+6/F - None of the above (False)
