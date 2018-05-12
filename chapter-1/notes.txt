@@ -103,6 +103,7 @@
 
 [METHOD finalize]
 	This method can be overridden (it is defined on the class Object) and it aims to be invoked by the JVM when it determines the current instance is no more accessible from any alive thread.
+	This method is defined on class Object with the "protected" access modifier, so, it can be defined with this or a greater access modifier, such as "public", but no less restrictive access modifier can be set, such as, default or private.
 	Some important details about this method are;
 	* There's no how imposes to JVM to run garbage collection, so, there's no how determine the moment the JVM will invoke this method
 	* The JVM might never invoke this method, if it understand there's no need to reclaim resource
