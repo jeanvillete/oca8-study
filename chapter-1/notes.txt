@@ -101,6 +101,13 @@
 * Instance variables; in scope from declaration until object garbage collected
 * Class variables - in scope from declaration until program ends
 
+[METHOD finalize]
+	This method can be overridden (it is defined on the class Object) and it aims to be invoked by the JVM when it determines the current instance is no more accessible from any alive thread.
+	Some important details about this method are;
+	* There's no how imposes to JVM to run garbage collection, so, there's no how determine the moment the JVM will invoke this method
+	* The JVM might never invoke this method, if it understand there's no need to reclaim resource
+	* If any exception is raised while JVM is running this method, even the JVM reclaims the resource later, this method will not be invoked again, so summing up, this method can be invoked zero or once.
+
 [JAVA BENEFITS]
 - Object Oriented; Java is an object-oriented language, which means all code is defined in classes and most of those classes can be instantiated into objects.
 - Encapsulation; Java supports access modifiers to protect data from unintended access and modification.
