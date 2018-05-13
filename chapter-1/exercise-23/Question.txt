@@ -1,0 +1,8 @@
+Which of the following are true? (Choose all that apply)
+
+1/A - javac compiles a .class file into a .java file (False)
+2/B - javac compiles a .java file into a .bytecode file (False)
+3/C - javac compiles a .java file into a .class file (True)
+4/D - Java takes the name of the class as parameter (True)
+5/E - Java takes the name of the .bytecode file as parameter (False)
+6/F - Java takes the name of the .class file as parameter (False)
