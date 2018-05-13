@@ -10,10 +10,11 @@ public class WaterBottle {
 
 /*
 * Output; Empty = false, Brand = null
+*
 * 1/A - Line 6 generates a compiler error (False)
 * 2/B - Line 7 generates a compiler error (False)
 * 3/C - There is no output (False)
 * 4/D - Empty = false, Brand = null (True)
 * 5/E - Empty = false, Brand = (False)
-* 6/F - Empty = null, Brand = null
+* 6/F - Empty = null, Brand = null (False)
 */
