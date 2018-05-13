@@ -1,0 +1,11 @@
+Which of the following are true statements? (Choose all that apply)
+
+1/A - Java allows operator overloading (False)
+2/B - Java code compiled on Windows can run on Linux (True)
+	Write once (also, compile once) run anywhere
+3/C - Java has pointers to specific locations in memory (False)
+	Java only offers to programmers variable references
+4/D - Java is procedural language (False)
+	Java is an Object Oriented Language
+5/E - Java is object-oriented language (True)
+6/F - Java is a functional programming language (False)
